@@ -6,6 +6,7 @@ import redis
 import ast
 import json
 from kafka import KafkaProducer
+
 bootstrap_servers = ['localhost:9092']
 topicName = 'myTopic'
 producer = KafkaProducer(bootstrap_servers = bootstrap_servers)
